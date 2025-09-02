@@ -26,8 +26,8 @@ public class ExampleController {
 //    알맞은 경로에 ex02.html을 생성하고 h1태그로 본인 이름을 출력한다.
     @GetMapping("ex02")
     public String ex02(){
-        System.out.println("한동석");
-        return "/ex/ex02";
+        System.out.println("정희준");
+        return "ex/ex02";
     }
 
     @GetMapping("ex03")
